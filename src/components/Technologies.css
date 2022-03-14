@@ -1,0 +1,22 @@
+body {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    background-color:#ffcbcb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    background: #132743;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.input-add[type=text]:focus {
+    margin: 5px;
+    border: 2px solid rgb(59, 37, 37);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
