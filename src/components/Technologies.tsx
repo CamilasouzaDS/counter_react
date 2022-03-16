@@ -40,7 +40,7 @@ const Technologies: React.FC = () => {
       </ul>
       
       <form data-testid="form-add-tech" onSubmit={handleSubmit}>
-        <input className="input-add"
+        <input
           data-testid="input-add-tech"
           type="text"
           value={newTech}

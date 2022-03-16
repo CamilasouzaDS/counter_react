@@ -1,9 +1,10 @@
 body {
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    background-color:#ffcbcb;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:auto;
+    width:1024px;
+    padding:10px;
+    background-color:#ebebeb;
+    font-size:14px;
+    font-family:Verdana;
 }
 
 button {
@@ -12,11 +13,12 @@ button {
     font-size: 20px;
     cursor: pointer;
     border-radius: 5%;
+    margin: 10px;
 }
 
-.input-add[type=text]:focus {
-    margin: 5px;
+.input-add-tech[type=text]:focus {
+    margin: 20px;
     border: 2px solid rgb(59, 37, 37);
-    border-radius: 4px;
+    border-radius: 5px;
     box-sizing: border-box;
 }
